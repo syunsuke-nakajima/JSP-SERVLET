@@ -4,7 +4,7 @@ JSPサーブレットのテストページ。
 List.javaにリクエスト　→　ProductList.jspにフォワードする。
 
 【ProductList.jsp】
-DBから情報を取得し、各セルに情報を表示する。
+DBから情報を取得し、各セルに情報を表示する。<br />
 ●　「新規登録」 →　ProductInfo.jspへ遷移
 ●　更新セルの「更新」ボタンを押す　→　beanクラスの値を保持し　ProductUpdate.jspに遷移。
 
