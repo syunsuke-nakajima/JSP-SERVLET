@@ -28,7 +28,7 @@ public class List extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// list.jspへ遷移
-		request.getRequestDispatcher("WEB-INF/jsp/info/ProductList.jsp").forward(request, response);
+		request.getRequestDispatcher("WEB-INF/jsp/list/ProductList.jsp").forward(request, response);
 
 	}
 

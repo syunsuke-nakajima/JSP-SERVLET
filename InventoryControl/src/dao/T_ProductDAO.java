@@ -50,8 +50,6 @@ public class T_ProductDAO {
     public synchronized void open() throws Exception {
         Class.forName(driver);
         con = DriverManager.getConnection(url, user, password);
-        ps = con.prepareStatement("insert into T_product(product_ID, product_genre_code, product_name, product_maker, product_price, product_stock, product_sales, product_remarks) values"
-        		+ "?,?,?,?,?,?,?,?");
     }
 
     /**
