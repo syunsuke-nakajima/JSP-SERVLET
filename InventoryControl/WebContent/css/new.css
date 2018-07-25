@@ -1,0 +1,56 @@
+#wrapper {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+}
+
+#content1 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content1 ul input[type="text"] {
+	width: 234px;
+	margin-bottom: 10px;
+}
+
+#content1 ul:first-child {
+	margin-right: 10px;
+}
+
+#form-left {
+	float: left;
+	width: 240px;
+	margin-right: 20px;
+}
+
+#form-right {
+	float: left;
+	width: 240px;
+}
+
+#form-right select {
+	width: 240px;
+	margin-bottom: 12px;
+}
+
+#content2 {
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+#content2 textarea {
+	width: 494px;
+}
+
+#content3 input {
+	width: 80px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
