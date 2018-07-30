@@ -36,10 +36,10 @@
 					<ul>
 						<li>ジャンル<br />
 							<select name="genre">
-								<option value="0">指定なし</option>
-								<option value="1">時計</option>
-								<option value="2">電子機器</option>
-								<option value="3">携帯</option>
+								<option value= 0>指定なし</option>
+								<option value= 1>時計</option>
+								<option value= 2>電子機器</option>
+								<option value= 3>携帯</option>
 							</select>
 						</li>
 						<li>メーカー名<br />
