@@ -35,7 +35,7 @@ public class T_ProductDAO {
      */
     public T_ProductDAO() {
         driver = "com.mysql.jdbc.Driver";
-        url = "jdbc:mysql://localhost:3036/wbr_inventory_control";
+        url = "jdbc:mysql://localhost:3306/wbr_inventory_control";
         user = "testuser";
         password = "Testuser1%";
     }
@@ -49,8 +49,6 @@ public class T_ProductDAO {
     public ResultSet insertSQL(int id, int genreCode, String name, String maker, int price, int stock, int number, String remarks) {
     	String sql = "insert into T_Product values (?,?,?,?,?,?,?,?)";
     	try {
-    		stmt = con.prepareStatement(sql);
-
 			// 各値をセットする
     		((PreparedStatement) stmt).setInt(1, id);
     		((PreparedStatement) stmt).setInt(2, genreCode);
