@@ -34,7 +34,7 @@ public class T_ProductDAO {
      * 既定値を使用する
      */
     public T_ProductDAO() {
-        driver = "com.mysql.jdbc.Driver";
+        driver = "com.mysql.cj.jdbc.Driver";
         url = "jdbc:mysql://localhost:3306/wbr_inventory_control";
         user = "testuser";
         password = "Testuser1%";
